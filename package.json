@@ -7,7 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "yarn test"
+    "test": "make test",
+    "dev": "make dev",
+    "start": "make start",
+    "build": "make build"
   },
   "repository": {
     "type": "git",
@@ -35,5 +38,16 @@
   "bugs": {
     "url": "https://github.com/HeartBeat1608/mongoose-acl/issues"
   },
-  "homepage": "https://github.com/HeartBeat1608/mongoose-acl#readme"
+  "homepage": "https://github.com/HeartBeat1608/mongoose-acl#readme",
+  "dependencies": {
+    "@types/node": "^17.0.18",
+    "mongoose": "^6.2.2",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.5.0"
+  }
 }
