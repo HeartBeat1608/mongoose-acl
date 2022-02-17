@@ -1,0 +1,39 @@
+{
+  "name": "mongoose-acl",
+  "version": "0.1.0",
+  "description": "ACL for mongodb using mongoose adapter and models",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HeartBeat1608/mongoose-acl.git"
+  },
+  "keywords": [
+    "mongoose",
+    "acl",
+    "authentication",
+    "mongodb",
+    "access",
+    "control",
+    "list",
+    "rbac",
+    "abac",
+    "attribute",
+    "based",
+    "role",
+    "based",
+    "feature",
+    "based"
+  ],
+  "author": "Durgesh Pandey <durgeshp1608@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeartBeat1608/mongoose-acl/issues"
+  },
+  "homepage": "https://github.com/HeartBeat1608/mongoose-acl#readme"
+}
